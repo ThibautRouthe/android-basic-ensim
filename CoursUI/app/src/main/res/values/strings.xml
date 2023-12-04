@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoursUI</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Layout Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="main_fragment_title">Les layouts</string>
+    <string name="main_fragment_button1">Layout 1</string>
+    <string name="main_fragment_button2">Layout 2</string>
+    <string name="main_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="layout1_fragment_textview">Mon Layout pas beau</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

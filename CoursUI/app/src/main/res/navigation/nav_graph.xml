@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="fr.ensim.android.coursui.MainFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_MainFragment_to_Layout1Fragment"
+            app:destination="@id/Layout1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Layout1Fragment"
+        android:name="fr.ensim.android.coursui.Layout1Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_layout1">
+        <argument
+            android:name="param1"
+            app:argType="string" />
+        <argument
+            android:name="param2"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>
